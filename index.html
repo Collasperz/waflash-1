@@ -93,6 +93,9 @@ body,table,td {font-size:14px; font-family: Arial, Helvetica, sans-serif;}
 <ul id="context-menu" style="display:none"><li id="menu1" class="menu_item active" style="white-space:nowrap">Enter fullscreen (Emulator 2)</li></ul>
 
 <script>
+document.addEventListener('onload', function() {
+	document.querySelector('input').click();
+});
 var gainNode;
 var filein=document.querySelector("input[type=file]");
 //ios bad:
